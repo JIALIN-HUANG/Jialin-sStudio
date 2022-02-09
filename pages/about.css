@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+.container {
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  top: 15%;
+  left: 55%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.l1 {
+  position: absolute;
+  width: 95vw;
+  height: 0px;
+  left: 2%;
+  top: 73px;
+
+  border: 1px solid #000000;
+}
+
+.l2 {
+  position: absolute;
+  width: 95vw;
+  height: 0px;
+  left: 2%;
+  top: 203px;
+
+  border: 1px solid #000000;
+}
+
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: 0 20px;
+  }
+  
+  .cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+  }
+  
+  .cool-link:hover::after {
+    widows: 100%;
+    transition: width 0.3s;
+  }
+  
+.headline{
+  position: flex;
+  width: 539px;
+  height: 79px;
+  left: 120px;
+  top: 26%;
+  
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 84%;
+  /* or 54px */
+}
+
+.context{
+  position: absolute;
+  width: 756px;
+  left: 120px;
+  top: 368px;
+  
+  font-family: Noto Serif SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 144%;
+}
+
+.face{
+    position: absolute;
+    width: 420px;
+    margin-left: 980px;
+    margin-top: 260px;
+}
+
+.dpn{
+  color: #000000;
+  text-decoration: none;
+}
+
+.dpn:hover{
+  color: darkred;
+}
+
+.back{
+  position: absolute;
+  width: 539px;
+  height: 79px;
+  left: 120px;
+  top: 713px;
+  
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 84%;
+}

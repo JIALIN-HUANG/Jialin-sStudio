@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.nav-links {
+  color: #6c464f;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.rec1{
+  margin-top: 10vw;
+}
+
+.projectList {
+  position: absolute;
+  top: 30%;
+}
+
+/* .container:hover{
+color: grey;
+  } */
+
+a:link {
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.projectList,
+.nav-links {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 0 20px;
+  line-height: 148%;
+  left: 19%;
+}
+
+.projectList,
+.nav-links:hover,
+.studio {
+  color: grey;
+}
+
+.studio {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+
+  margin-right: 240px;
+  margin-top: 450px;
+  text-align: right;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 0 20px;
+  line-height: 148%;
+}
+
+.flexbox {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-test{
+	display: flex;
+  /* flex-wrap: wrap; */
+  margin-left: 10vw;
+  margin-right: 10vw;
+	margin: none;
+  justify-content:flex-start;
+}
+
+.flex-column{
+	flex: 1;
+}
+
+video{
+	width: 100%;
+	height: auto;
+}
+
+.videoInsert {
+  position: absolute;
+  margin-bottom: 0px;
+  height: 100px;
+  width: auto;
+}
+
+.thevideo2{
+  position: absolute;
+  width: 50px;
+  height: auto;
+}
+
+.thevideo3,
+.thevideo4,
+.thevideo5,
+.thevideo6{
+  position: absolute;
+  margin: none;
+}
+
+.proj4{
+  position: absolute;
+  margin-left: none;
+  width: 10vw;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.imageclass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url(http://i.imgur.com/E2ee6fI.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  animation: giffy 0.5s infinite steps(1);
+  animation-play-state: paused;
+}
+
+.imageclass :hover {
+  animation-play-state: running;
+}
